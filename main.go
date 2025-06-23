@@ -1,8 +1,9 @@
 package main
 
 import (
-	"os"
 	"log"
+	"nextChatServer/internal/db"
+	"os"
 )
 
 func init() {
@@ -19,7 +20,14 @@ func init() {
 	log.Println("日志文件初始化成功")
 }
 
+func initDB() {
+	db.MustGetDB()
+	if err := db.AutoMigrate(); err != nil {
+		panic(err)
+	}
+}
+
 func main() {
 	// 程序主逻辑
-	log.Println("程序开始运行")
+	initDB()
 }
