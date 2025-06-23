@@ -40,7 +40,9 @@ func MustGetDB() *gorm.DB {
 func initDB() {
 	// 读取配置
 	// 通过 config 包获取
-	dsn := config.Load().PostgresDSN
+	dsn := config.Load().Postgres.DSN
+	MaxIdleConns := config.Load().Postgres.MaxIdleConns
+	MaxOpenConns := config.Load().Postgres.MaxOpenConns
 
 	// 自定义日志级别（可根据需要替换）
 	newLogger := logger.New(
@@ -64,8 +66,8 @@ func initDB() {
 	if err != nil {
 		log.Fatalf("获取 gorm 的 sql.DB 失败: %v", err)
 	}
-	sqlDB.SetMaxIdleConns(10)                  // 空闲连接数
-	sqlDB.SetMaxOpenConns(100)                 // 打开连接数上限
+	sqlDB.SetMaxIdleConns(MaxIdleConns)        // 空闲连接数
+	sqlDB.SetMaxOpenConns(MaxOpenConns)        // 打开连接数上限
 	sqlDB.SetConnMaxLifetime(30 * time.Minute) // 单连接最大生命周期
 
 	// 这里可以顺带做一次基础健康检查

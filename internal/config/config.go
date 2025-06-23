@@ -8,8 +8,23 @@ import (
 	"log"
 )
 
+type RedisConf struct {
+	Addr         string `json:"addr"`
+	Password     string `json:"password"`
+	DB           int    `json:"db"`
+	PoolSize     int    `json:"pool_size"`
+	MinIdleConns int    `json:"min_idle_conns"`
+}
+
+type Postgres struct {
+	DSN string `json:"dsn"`
+	MaxIdleConns int `json:"max_idle_conns"`
+	MaxOpenConns int `json:"max_open_conns"`
+}
+
 type Config struct {
-	PostgresDSN string `json:"postgres_dsn"`
+	Postgres Postgres `json:"postgres"`
+	Redis    RedisConf `json:"redis"`
 }
 
 var (
@@ -20,36 +35,35 @@ var (
 // Load 只会执行一次；env > JSON > 默认值
 func Load() Config {
 	once.Do(func() {
-		// 1. 先看环境变量
-		if dsn := os.Getenv("POSTGRES_DSN"); dsn != "" {
-			cfg.PostgresDSN = dsn
-			return
-		}
-
-		// 2. 再读 JSON
-		path := os.Getenv("")
+		// 直接读 JSON
+		path := os.Getenv("CONFIG_PATH")
 		if path == "" {
 			path = "config.json" // 项目根目录
 		}
+		// 解析绝对路径
 		abs, err := filepath.Abs(path)
 		if err != nil {
 			log.Panicf("解析配置文件路径失败: %v", err)
 		}
-
+		// 打开文件
 		file, err := os.Open(abs)
 		if err != nil {
 			log.Panicf("打开 config.json 失败: %v", err)
 		}
 		defer file.Close()
-
+		// 解析 JSON
 		if err := json.NewDecoder(file).Decode(&cfg); err != nil {
 			log.Panicf("解析 config.json 失败: %v", err)
 		}
-
-		if cfg.PostgresDSN == "" {
-			log.Panic("配置项 postgres_dsn 为空")
+		// 检查必需配置项
+		if cfg.Postgres.DSN == "" {
+			log.Panic("配置项 postgres.dsn 为空")
+		}
+		if cfg.Redis.Addr == "" {
+			log.Panic("配置项 redis.addr 为空")
 		}
 	})
 
 	return cfg
 }
+

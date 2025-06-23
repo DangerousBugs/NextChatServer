@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"nextChatServer/internal/cache"
 	"nextChatServer/internal/db"
 	"os"
 )
@@ -27,15 +28,21 @@ func initDB() {
 	}
 }
 
-func shutdownDB() {
-    sqlDB, _ := db.GetDB().DB()
-    _ = sqlDB.Close()
+func initCache() {
+	cache.MustGetRedis()
+}
+
+func shutdown() {
+	sqlDB, _ := db.GetDB().DB()
+	_ = sqlDB.Close()
+	_ = cache.Close()
 }
 
 func main() {
 	// 程序主逻辑
 	initDB()
+	initCache()
 
 	// 程序关闭逻辑
-	defer shutdownDB()
+	defer shutdown()
 }
