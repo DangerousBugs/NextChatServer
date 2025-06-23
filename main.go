@@ -27,7 +27,15 @@ func initDB() {
 	}
 }
 
+func shutdownDB() {
+    sqlDB, _ := db.GetDB().DB()
+    _ = sqlDB.Close()
+}
+
 func main() {
 	// 程序主逻辑
 	initDB()
+
+	// 程序关闭逻辑
+	defer shutdownDB()
 }
