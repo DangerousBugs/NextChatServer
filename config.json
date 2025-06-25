@@ -10,5 +10,11 @@
     "db": 0,
     "pool_size": 50,
     "min_idle_conns": 5
+  },
+  "machinery": {
+    "redis_db": 1,
+    "default_queue": "tasks",
+    "result_expire": 0,
+    "concurrency": 8
   }
 }

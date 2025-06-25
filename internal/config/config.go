@@ -2,10 +2,10 @@ package config
 
 import (
 	"encoding/json"
+	"log"
 	"os"
 	"path/filepath"
 	"sync"
-	"log"
 )
 
 type RedisConf struct {
@@ -17,14 +17,22 @@ type RedisConf struct {
 }
 
 type Postgres struct {
-	DSN string `json:"dsn"`
-	MaxIdleConns int `json:"max_idle_conns"`
-	MaxOpenConns int `json:"max_open_conns"`
+	DSN          string `json:"dsn"`
+	MaxIdleConns int    `json:"max_idle_conns"`
+	MaxOpenConns int    `json:"max_open_conns"`
+}
+
+type MachineryConf struct {
+	RedisDB      int    `json:"redis_db"`
+	DefaultQueue string `json:"default_queue"`
+	ResultExpire int    `json:"result_expire"`
+	Concurrency  int    `json:"concurrency"`
 }
 
 type Config struct {
-	Postgres Postgres `json:"postgres"`
-	Redis    RedisConf `json:"redis"`
+	Postgres  Postgres      `json:"postgres"`
+	Redis     RedisConf     `json:"redis"`
+	Machinery MachineryConf `json:"machinery"`
 }
 
 var (
@@ -66,4 +74,3 @@ func Load() Config {
 
 	return cfg
 }
-
