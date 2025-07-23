@@ -30,7 +30,7 @@ func GetDB() *gorm.DB {
 func MustGetDB() *gorm.DB {
 	db := GetDB()
 	if db == nil {
-		panic("database not initialized")
+		panic("FUCK 数据库未初始化")
 	}
 	return db
 }
@@ -58,13 +58,13 @@ func initDB() {
 		Logger: newLogger,
 	})
 	if err != nil {
-		log.Fatalf("连接数据库失败: %v", err)
+		log.Fatalf("FUCK 连接数据库失败: %v", err)
 	}
 
 	// 连接池设置
 	sqlDB, err := db.DB()
 	if err != nil {
-		log.Fatalf("获取 gorm 的 sql.DB 失败: %v", err)
+		log.Fatalf("FUCK 获取 gorm 的 sql.DB 失败: %v", err)
 	}
 	sqlDB.SetMaxIdleConns(MaxIdleConns)        // 空闲连接数
 	sqlDB.SetMaxOpenConns(MaxOpenConns)        // 打开连接数上限
@@ -72,7 +72,7 @@ func initDB() {
 
 	// 这里可以顺带做一次基础健康检查
 	if err := sqlDB.Ping(); err != nil {
-		log.Fatalf("数据库 ping 错误: %v", err)
+		log.Fatalf("FUCK 数据库 ping 错误: %v", err)
 	}
 
 	conn = db

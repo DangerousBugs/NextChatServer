@@ -15,7 +15,7 @@ func init() {
 	// 初始化日志文件
 	logFileServer, err = os.OpenFile("log_server.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
-		log.Fatalf("打开文件失败: %v", err)
+		log.Fatalf("FUCK 打开文件失败: %v", err)
 	}
 
 	// 设置日志输出到文件

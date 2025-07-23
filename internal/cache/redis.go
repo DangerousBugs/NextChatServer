@@ -26,7 +26,7 @@ func GetRedis() *redis.Client {
 func MustGetRedis() *redis.Client {
 	r := GetRedis()
 	if r == nil {
-		panic("Redis 未初始化")
+		panic("FUCK Redis 未初始化")
 	}
 	return r
 }
@@ -53,7 +53,7 @@ func initRedis() {
 
 	// 简单连通性检查
 	if err := client.Ping(context.Background()).Err(); err != nil {
-		log.Fatalf("Redis ping 错误: %v", err)
+		log.Fatalf("FUCK Redis ping 错误: %v", err)
 	}
 	log.Println("Redis 连接成功")
 }

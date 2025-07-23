@@ -51,24 +51,24 @@ func Load() Config {
 		// 解析绝对路径
 		abs, err := filepath.Abs(path)
 		if err != nil {
-			log.Panicf("解析配置文件路径失败: %v", err)
+			log.Panicf("FUCK 解析配置文件路径失败: %v", err)
 		}
 		// 打开文件
 		file, err := os.Open(abs)
 		if err != nil {
-			log.Panicf("打开 config.json 失败: %v", err)
+			log.Panicf("FUCK 打开 config.json 失败: %v", err)
 		}
 		defer file.Close()
 		// 解析 JSON
 		if err := json.NewDecoder(file).Decode(&cfg); err != nil {
-			log.Panicf("解析 config.json 失败: %v", err)
+			log.Panicf("FUCK 解析 config.json 失败: %v", err)
 		}
 		// 检查必需配置项
 		if cfg.Postgres.DSN == "" {
-			log.Panic("配置项 postgres.dsn 为空")
+			log.Panic("FUCK 配置项 postgres.dsn 为空")
 		}
 		if cfg.Redis.Addr == "" {
-			log.Panic("配置项 redis.addr 为空")
+			log.Panic("FUCK 配置项 redis.addr 为空")
 		}
 	})
 

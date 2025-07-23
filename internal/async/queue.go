@@ -26,7 +26,7 @@ func GetServer() *machinery.Server {
 func MustGetServer() *machinery.Server {
 	s := GetServer()
 	if s == nil {
-		log.Fatalln("machinery server 未初始化")
+		log.Fatalln("FUCK machinery server 未初始化")
 	}
 	return s
 }
@@ -54,14 +54,14 @@ func initServer() {
 	var err error
 	server, err = machinery.NewServer(c)
 	if err != nil {
-		log.Fatalf("machinery.NewServer 错误: %v", err)
+		log.Fatalf("FUCK machinery.NewServer 错误: %v", err)
 	}
 
 	// 统一注册任务
 	if err := server.RegisterTasks(map[string]interface{}{
 		"add": Add, // 示例：加法
 	}); err != nil {
-		log.Fatalf("machinery 注册任务错误: %v", err)
+		log.Fatalf("FUCK machinery 注册任务错误: %v", err)
 	}
 	log.Println("machinery 服务初始化完成")
 }
@@ -79,6 +79,6 @@ func StartWorker(name string) {
 	}
 	worker := GetServer().NewWorker(name, concurrency)
 	if err := worker.Launch(); err != nil {
-		log.Fatalf("machinery worker 启动错误: %v", err)
+		log.Fatalf("FUCK machinery worker 启动错误: %v", err)
 	}
 }
