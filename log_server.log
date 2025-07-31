@@ -28,3 +28,157 @@
 2025/07/23 15:26:48 FUCK 连接数据库失败: failed to connect to `user=algfwq database=algfwq`: 127.0.0.1:5432 (127.0.0.1): dial error: dial tcp 127.0.0.1:5432: connectex: No connection could be made because the target machine actively refused it.
 2025/07/23 15:27:15 日志文件初始化成功
 2025/07/23 15:27:15 FUCK 连接数据库失败: failed to connect to `user=algfwq database=algfwq`: 127.0.0.1:5432 (127.0.0.1): dial error: dial tcp 127.0.0.1:5432: connectex: No connection could be made because the target machine actively refused it.
+2025/07/31 10:20:21 日志文件初始化成功
+2025/07/31 10:20:21 数据库连接成功
+2025/07/31 10:20:21 Redis 连接成功
+2025/07/31 10:20:21 machinery 服务初始化完成
+2025/07/31 10:20:21 服务器启动，监听 :3000
+2025/07/31 10:20:38 新的 WebSocket 连接已注册: ID=30d1b664-a116-46d9-9ffa-4ffc361e8aa6, 用户=user123, 分组=room1
+2025/07/31 10:21:25 新的 WebSocket 连接已注册: ID=9a22e86f-31a1-4e50-b6ba-526e2e3f2ee6, 用户=user12, 分组=room1
+2025/07/31 10:22:39 新的 WebSocket 连接已注册: ID=13d03c64-ce92-49d8-a76f-11d620c4f524, 用户=user123, 分组=room2
+2025/07/31 10:23:24 WebSocket 连接已注销: ID=13d03c64-ce92-49d8-a76f-11d620c4f524, 用户=user123, 分组=room2
+2025/07/31 10:23:28 WebSocket 连接已注销: ID=9a22e86f-31a1-4e50-b6ba-526e2e3f2ee6, 用户=user12, 分组=room1
+2025/07/31 10:23:34 WebSocket 连接已注销: ID=30d1b664-a116-46d9-9ffa-4ffc361e8aa6, 用户=user123, 分组=room1
+2025/07/31 10:45:55 日志文件初始化成功
+2025/07/31 10:45:55 数据库连接成功
+2025/07/31 10:45:55 Redis 连接成功
+2025/07/31 10:45:55 machinery 服务初始化完成
+2025/07/31 10:45:55 服务器启动，监听 :3000
+2025/07/31 10:46:08 新的 WebSocket 连接已注册: ID=f8bb4697-a8b4-4582-9233-da97143e3825, 用户=user123, 分组=room1
+2025/07/31 10:46:10 WebSocket 连接已注销: ID=f8bb4697-a8b4-4582-9233-da97143e3825, 用户=user123, 分组=room1
+2025/07/31 10:46:12 新的 WebSocket 连接已注册: ID=f3afb9fd-811e-40e0-9c03-21e5fc9b3e46, 用户=user123, 分组=room1
+2025/07/31 10:46:23 新的 WebSocket 连接已注册: ID=fc03f242-e7f5-4aff-b50d-ebe830d0995a, 用户=user12, 分组=room1
+2025/07/31 10:46:27 新的 WebSocket 连接已注册: ID=4078b863-dd37-4b85-89bc-83e028728081, 用户=user123, 分组=room2
+2025/07/31 10:47:17 WebSocket 连接已注销: ID=f3afb9fd-811e-40e0-9c03-21e5fc9b3e46, 用户=user123, 分组=room1
+2025/07/31 10:47:20 WebSocket 连接已注销: ID=fc03f242-e7f5-4aff-b50d-ebe830d0995a, 用户=user12, 分组=room1
+2025/07/31 10:47:23 WebSocket 连接已注销: ID=4078b863-dd37-4b85-89bc-83e028728081, 用户=user123, 分组=room2
+2025/07/31 10:52:08 日志文件初始化成功
+2025/07/31 10:52:08 数据库连接成功
+2025/07/31 10:52:09 Redis 连接成功
+2025/07/31 10:52:09 machinery 服务初始化完成
+2025/07/31 10:52:09 服务器启动，监听 :3000
+2025/07/31 10:52:20 新的 WebSocket 连接已注册: ID=0f774623-98a7-4a9c-a6c0-912fc6f14620, 用户=user123, 分组=room2
+2025/07/31 10:52:22 WebSocket 连接已注销: ID=0f774623-98a7-4a9c-a6c0-912fc6f14620, 用户=user123, 分组=room2
+2025/07/31 10:52:23 新的 WebSocket 连接已注册: ID=b0bac1c1-cc59-4fc3-86b0-5fd26c708d62, 用户=user123, 分组=room2
+2025/07/31 10:52:27 新的 WebSocket 连接已注册: ID=57a6ba07-7cac-4457-a1ad-963ea7a7ab76, 用户=user12, 分组=room1
+2025/07/31 10:52:30 新的 WebSocket 连接已注册: ID=7f2946fe-05f1-4084-98ce-a7004a09b14b, 用户=user123, 分组=room1
+2025/07/31 10:57:38 日志文件初始化成功
+2025/07/31 10:57:38 数据库连接成功
+2025/07/31 10:57:39 Redis 连接成功
+2025/07/31 10:57:39 machinery 服务初始化完成
+2025/07/31 10:57:39 服务器启动，监听 :3000
+2025/07/31 10:57:49 新的 WebSocket 连接已注册: ID=1a7ab460-dba2-4897-a9f0-a9263a515b23, 用户=user123, 分组=room1
+2025/07/31 10:57:53 新的 WebSocket 连接已注册: ID=3a6d7938-51b3-4daa-b9d0-cdf232a775ab, 用户=user12, 分组=room1
+2025/07/31 10:57:56 新的 WebSocket 连接已注册: ID=664049ea-65b0-42ed-8e3c-c13aeb8e6a0a, 用户=user123, 分组=room2
+2025/07/31 10:58:31 WebSocket 连接已注销: ID=664049ea-65b0-42ed-8e3c-c13aeb8e6a0a, 用户=user123, 分组=room2
+2025/07/31 10:58:34 新的 WebSocket 连接已注册: ID=51939c98-bbb0-47c9-becb-771cad856b58, 用户=user123, 分组=room2
+2025/07/31 10:58:36 WebSocket 连接已注销: ID=51939c98-bbb0-47c9-becb-771cad856b58, 用户=user123, 分组=room2
+2025/07/31 10:58:39 WebSocket 连接已注销: ID=3a6d7938-51b3-4daa-b9d0-cdf232a775ab, 用户=user12, 分组=room1
+2025/07/31 10:58:42 WebSocket 连接已注销: ID=1a7ab460-dba2-4897-a9f0-a9263a515b23, 用户=user123, 分组=room1
+2025/07/31 10:58:44 新的 WebSocket 连接已注册: ID=a7ddb2aa-9709-4363-bcba-17ced47b4828, 用户=user123, 分组=room1
+2025/07/31 10:58:50 新的 WebSocket 连接已注册: ID=8273dd4d-6216-4ca9-9c50-f8462d03990f, 用户=user12, 分组=room1
+2025/07/31 10:58:53 WebSocket 连接已注销: ID=3a6d7938-51b3-4daa-b9d0-cdf232a775ab, 用户=user12, 分组=room1
+2025/07/31 10:59:04 WebSocket 连接已注销: ID=51939c98-bbb0-47c9-becb-771cad856b58, 用户=user123, 分组=room1
+2025/07/31 10:59:10 新的 WebSocket 连接已注册: ID=eb7310cb-28e8-4349-98d1-e0cad6542470, 用户=user123, 分组=room2
+2025/07/31 10:59:19 WebSocket 连接已注销: ID=eb7310cb-28e8-4349-98d1-e0cad6542470, 用户=user123, 分组=room2
+2025/07/31 10:59:23 WebSocket 连接已注销: ID=8273dd4d-6216-4ca9-9c50-f8462d03990f, 用户=user12, 分组=room1
+2025/07/31 10:59:26 WebSocket 连接已注销: ID=664049ea-65b0-42ed-8e3c-c13aeb8e6a0a, 用户=user123, 分组=room1
+2025/07/31 10:59:27 WebSocket 连接已注销: ID=a7ddb2aa-9709-4363-bcba-17ced47b4828, 用户=user123, 分组=room1
+2025/07/31 10:59:29 新的 WebSocket 连接已注册: ID=84278d36-79a5-46e9-aba2-f22563cf24db, 用户=user123, 分组=room1
+2025/07/31 10:59:30 WebSocket 连接已注销: ID=84278d36-79a5-46e9-aba2-f22563cf24db, 用户=user123, 分组=room1
+2025/07/31 10:59:35 FUCK machinery worker 启动错误: Worker quit gracefully
+2025/07/31 11:08:56 日志文件初始化成功
+2025/07/31 11:08:56 数据库连接成功
+2025/07/31 11:08:57 Redis 连接成功
+2025/07/31 11:08:57 machinery 服务初始化完成
+2025/07/31 11:08:57 服务器启动，监听 :3000
+2025/07/31 11:09:07 新的 WebSocket 连接已注册: ID=3968bc77-b811-4389-8f2b-8bd4460a1112, 用户=user123, 分组=room1
+2025/07/31 11:09:10 新的 WebSocket 连接已注册: ID=732950af-44a4-461c-8cc5-9e11b763bb90, 用户=user12, 分组=room1
+2025/07/31 11:09:13 新的 WebSocket 连接已注册: ID=2862c7e0-028c-4187-a3b1-5e3a6c9da6d4, 用户=user123, 分组=room2
+2025/07/31 11:09:33 WebSocket 连接已注销: ID=732950af-44a4-461c-8cc5-9e11b763bb90, 用户=user12, 分组=room1
+2025/07/31 11:09:35 WebSocket 连接已注销: ID=2862c7e0-028c-4187-a3b1-5e3a6c9da6d4, 用户=user123, 分组=room2
+2025/07/31 11:09:37 发送PING: userID=user123, group=room1
+2025/07/31 11:09:37 收到PONG，刷新读超时: userID=user123, group=room1
+2025/07/31 11:09:38 WebSocket 连接已注销: ID=3968bc77-b811-4389-8f2b-8bd4460a1112, 用户=user123, 分组=room1
+2025/07/31 11:09:39 新的 WebSocket 连接已注册: ID=e089b3ef-1b8f-42c8-beb3-1d059ae254e1, 用户=user123, 分组=room1
+2025/07/31 11:09:40 发送PING: userID=user12, group=room1
+2025/07/31 11:09:40 PING 发送失败，注销连接: userID=user12, group=room1, err=nil *Conn
+2025/07/31 11:09:40 WebSocket 连接已注销: ID=732950af-44a4-461c-8cc5-9e11b763bb90, 用户=user12, 分组=room1
+2025/07/31 11:09:41 WebSocket 连接已注销: ID=e089b3ef-1b8f-42c8-beb3-1d059ae254e1, 用户=user123, 分组=room1
+2025/07/31 11:09:43 发送PING: userID=user123, group=room2
+2025/07/31 11:09:43 PING 发送失败，注销连接: userID=user123, group=room2, err=nil *Conn
+2025/07/31 11:09:43 WebSocket 连接已注销: ID=2862c7e0-028c-4187-a3b1-5e3a6c9da6d4, 用户=user123, 分组=room2
+2025/07/31 11:09:52 FUCK machinery worker 启动错误: Worker quit gracefully
+2025/07/31 11:17:44 日志文件初始化成功
+2025/07/31 11:17:44 数据库连接成功
+2025/07/31 11:17:45 Redis 连接成功
+2025/07/31 11:17:45 machinery 服务初始化完成
+2025/07/31 11:17:45 服务器启动，监听 :3000
+2025/07/31 11:17:54 新的 WebSocket 连接已注册: ID=fe0611c9-3d9e-4d80-b818-97505ed8a163, 用户=user123, 分组=room1
+2025/07/31 11:17:58 新的 WebSocket 连接已注册: ID=f78a7cad-04bf-4fbd-a79f-a1c164599c26, 用户=user12, 分组=room1
+2025/07/31 11:18:01 新的 WebSocket 连接已注册: ID=9defd0a3-cd37-437f-bf3d-57cacccac961, 用户=user123, 分组=room2
+2025/07/31 11:18:24 发送PING: userID=user123, group=room1
+2025/07/31 11:18:24 收到PONG，刷新读超时: userID=user123, group=room1
+2025/07/31 11:18:27 WebSocket 连接已注销: ID=fe0611c9-3d9e-4d80-b818-97505ed8a163, 用户=user123, 分组=room1
+2025/07/31 11:18:28 发送PING: userID=user12, group=room1
+2025/07/31 11:18:28 收到PONG，刷新读超时: userID=user12, group=room1
+2025/07/31 11:18:28 新的 WebSocket 连接已注册: ID=6e67287a-0964-4f6a-b64d-4bb51a5a7ad2, 用户=user123, 分组=room1
+2025/07/31 11:18:31 发送PING: userID=user123, group=room2
+2025/07/31 11:18:31 收到PONG，刷新读超时: userID=user123, group=room2
+2025/07/31 11:18:32 WebSocket 连接已注销: ID=f78a7cad-04bf-4fbd-a79f-a1c164599c26, 用户=user12, 分组=room1
+2025/07/31 11:18:34 WebSocket 连接已注销: ID=9defd0a3-cd37-437f-bf3d-57cacccac961, 用户=user123, 分组=room2
+2025/07/31 11:18:37 WebSocket 连接已注销: ID=6e67287a-0964-4f6a-b64d-4bb51a5a7ad2, 用户=user123, 分组=room1
+2025/07/31 11:18:38 新的 WebSocket 连接已注册: ID=9e7b91d6-f28c-4744-9e53-e102a57279fb, 用户=user123, 分组=room1
+2025/07/31 11:18:40 WebSocket 连接已注销: ID=9e7b91d6-f28c-4744-9e53-e102a57279fb, 用户=user123, 分组=room1
+2025/07/31 11:18:41 新的 WebSocket 连接已注册: ID=b2daf447-a8ec-4912-aada-eac93248dca8, 用户=user123, 分组=room1
+2025/07/31 11:18:44 新的 WebSocket 连接已注册: ID=b51f4a73-6973-4dc6-b30d-c5c6e4494e8a, 用户=user12, 分组=room1
+2025/07/31 11:18:52 WebSocket 连接已注销: ID=b51f4a73-6973-4dc6-b30d-c5c6e4494e8a, 用户=user12, 分组=room1
+2025/07/31 11:18:54 发送PING: userID=user123, group=room1
+2025/07/31 11:18:54 PING 发送失败，注销连接: userID=user123, group=room1, err=nil *Conn
+2025/07/31 11:18:54 WebSocket 连接已注销: ID=fe0611c9-3d9e-4d80-b818-97505ed8a163, 用户=user123, 分组=room1
+2025/07/31 11:18:55 WebSocket 连接已注销: ID=b2daf447-a8ec-4912-aada-eac93248dca8, 用户=user123, 分组=room1
+2025/07/31 11:18:58 发送PING: userID=user12, group=room1
+2025/07/31 11:18:58 PING 发送失败，注销连接: userID=user12, group=room1, err=nil *Conn
+2025/07/31 11:18:58 WebSocket 连接已注销: ID=f78a7cad-04bf-4fbd-a79f-a1c164599c26, 用户=user12, 分组=room1
+2025/07/31 11:18:58 发送PING: userID=user123, group=room1
+2025/07/31 11:18:58 PING 发送失败，注销连接: userID=user123, group=room1, err=nil *Conn
+2025/07/31 11:18:58 WebSocket 连接已注销: ID=6e67287a-0964-4f6a-b64d-4bb51a5a7ad2, 用户=user123, 分组=room1
+2025/07/31 11:19:01 新的 WebSocket 连接已注册: ID=4ed8fb01-399e-4873-8c66-e0423cc25575, 用户=user123, 分组=room1
+2025/07/31 11:19:01 发送PING: userID=user123, group=room1
+2025/07/31 11:19:01 收到PONG，刷新读超时: userID=user123, group=room1
+2025/07/31 11:19:02 WebSocket 连接已注销: ID=4ed8fb01-399e-4873-8c66-e0423cc25575, 用户=user123, 分组=room1
+2025/07/31 11:19:05 新的 WebSocket 连接已注册: ID=c00a216a-3b54-4be1-80a9-ed5313f4077c, 用户=user12, 分组=room1
+2025/07/31 11:19:06 WebSocket 连接已注销: ID=c00a216a-3b54-4be1-80a9-ed5313f4077c, 用户=user12, 分组=room1
+2025/07/31 11:19:08 发送PING: userID=user123, group=room1
+2025/07/31 11:19:08 PING 发送失败，注销连接: userID=user123, group=room1, err=nil *Conn
+2025/07/31 11:19:08 WebSocket 连接已注销: ID=9e7b91d6-f28c-4744-9e53-e102a57279fb, 用户=user123, 分组=room1
+2025/07/31 11:19:09 新的 WebSocket 连接已注册: ID=b036de33-3785-4f79-8360-b250c71f88d9, 用户=user123, 分组=room2
+2025/07/31 11:19:10 WebSocket 连接已注销: ID=b036de33-3785-4f79-8360-b250c71f88d9, 用户=user123, 分组=room2
+2025/07/31 11:19:11 发送PING: userID=user123, group=room2
+2025/07/31 11:19:11 PING 发送失败，注销连接: userID=user123, group=room2, err=nil *Conn
+2025/07/31 11:19:11 WebSocket 连接已注销: ID=b2daf447-a8ec-4912-aada-eac93248dca8, 用户=user123, 分组=room2
+2025/07/31 11:19:14 发送PING: userID=user12, group=room1
+2025/07/31 11:19:14 PING 发送失败，注销连接: userID=user12, group=room1, err=nil *Conn
+2025/07/31 11:19:14 WebSocket 连接已注销: ID=b51f4a73-6973-4dc6-b30d-c5c6e4494e8a, 用户=user12, 分组=room1
+2025/07/31 11:19:16 新的 WebSocket 连接已注册: ID=b5e04870-a7ab-4552-ba76-8bfd767a0a0d, 用户=user12, 分组=room1
+2025/07/31 11:19:21 新的 WebSocket 连接已注册: ID=ab41e6ab-b25a-4cc8-8b89-5f1ab7e68826, 用户=user123, 分组=room2
+2025/07/31 11:19:24 新的 WebSocket 连接已注册: ID=3f4b00a5-fab0-49a3-826d-7eaaa63e6eec, 用户=user123, 分组=room1
+2025/07/31 11:19:31 发送PING: userID=user123, group=room1
+2025/07/31 11:19:31 收到PONG，刷新读超时: userID=user123, group=room1
+2025/07/31 11:19:31 发送PING: userID=user123, group=room1
+2025/07/31 11:19:31 收到PONG，刷新读超时: userID=user123, group=room1
+2025/07/31 11:19:35 发送PING: userID=user12, group=room1
+2025/07/31 11:19:35 PING 发送失败，注销连接: userID=user12, group=room1, err=nil *Conn
+2025/07/31 11:19:35 WebSocket 连接已注销: ID=c00a216a-3b54-4be1-80a9-ed5313f4077c, 用户=user12, 分组=room1
+2025/07/31 11:19:37 WebSocket 连接已注销: ID=ab41e6ab-b25a-4cc8-8b89-5f1ab7e68826, 用户=user123, 分组=room2
+2025/07/31 11:19:39 发送PING: userID=user123, group=room1
+2025/07/31 11:19:39 PING 发送失败，注销连接: userID=user123, group=room1, err=nil *Conn
+2025/07/31 11:19:39 WebSocket 连接已注销: ID=b036de33-3785-4f79-8360-b250c71f88d9, 用户=user123, 分组=room1
+2025/07/31 11:19:40 WebSocket 连接已注销: ID=3f4b00a5-fab0-49a3-826d-7eaaa63e6eec, 用户=user123, 分组=room1
+2025/07/31 11:19:43 WebSocket 连接已注销: ID=b5e04870-a7ab-4552-ba76-8bfd767a0a0d, 用户=user12, 分组=room1
+2025/07/31 11:19:44 新的 WebSocket 连接已注册: ID=38009f1e-02a9-4870-b267-22ed0ae85af4, 用户=user12, 分组=room1
+2025/07/31 11:19:45 WebSocket 连接已注销: ID=38009f1e-02a9-4870-b267-22ed0ae85af4, 用户=user12, 分组=room1
+2025/07/31 11:19:46 发送PING: userID=user12, group=room1
+2025/07/31 11:19:46 PING 发送失败，注销连接: userID=user12, group=room1, err=nil *Conn
+2025/07/31 11:19:46 WebSocket 连接已注销: ID=b5e04870-a7ab-4552-ba76-8bfd767a0a0d, 用户=user12, 分组=room1
+2025/07/31 11:19:49 FUCK machinery worker 启动错误: Worker quit gracefully
